@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bmi-calc-container{
+  width: 400px;
+  background-color: #F4F6FF;
+  padding: 2em;
+  border-radius: 8px;
+}
+
+.bmi-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.individual-field{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.verdict, .result{
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
